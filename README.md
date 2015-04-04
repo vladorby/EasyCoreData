@@ -13,13 +13,13 @@ ObjC CoreData verbose is too much to bear. There must have been a better way.
  
 # Usage
 
- 
+ ```ObjC
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
   
   [EasyCoreData setContext:self.managedObjectContext];
  
 }
-
+```
 Call framework methods on instances subclassed with EasyCoreData  
  
 
