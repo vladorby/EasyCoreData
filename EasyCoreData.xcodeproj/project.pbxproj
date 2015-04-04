@@ -10,6 +10,14 @@
 		4E49B1A51AD05AE900D175A7 /* EasyCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E49B1A41AD05AE900D175A7 /* EasyCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E49B1AB1AD05AEA00D175A7 /* EasyCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E49B19F1AD05AE900D175A7 /* EasyCoreData.framework */; };
 		4E49B1B21AD05AEA00D175A7 /* EasyCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B1B11AD05AEA00D175A7 /* EasyCoreDataTests.m */; };
+		4E49B1BD1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B1BB1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld */; };
+		4E49B1BE1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B1BB1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld */; };
+		4E49B1C61AD05C1700D175A7 /* EasyCoreDataFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E49B1C11AD05C1700D175A7 /* EasyCoreDataFramework.h */; };
+		4E49B1C71AD05C1700D175A7 /* EasyCoreDataFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B1C21AD05C1700D175A7 /* EasyCoreDataFramework.m */; };
+		4E49B1C81AD05C1700D175A7 /* EasyCoreDataFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B1C21AD05C1700D175A7 /* EasyCoreDataFramework.m */; };
+		4E49B1CB1AD05CCE00D175A7 /* CoreDataEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E49B1C91AD05CCE00D175A7 /* CoreDataEntity.h */; };
+		4E49B1CC1AD05CCE00D175A7 /* CoreDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B1CA1AD05CCE00D175A7 /* CoreDataEntity.m */; };
+		4E49B1CD1AD05CCE00D175A7 /* CoreDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B1CA1AD05CCE00D175A7 /* CoreDataEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,11 @@
 		4E49B1AA1AD05AEA00D175A7 /* EasyCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E49B1B01AD05AEA00D175A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E49B1B11AD05AEA00D175A7 /* EasyCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCoreDataTests.m; sourceTree = "<group>"; };
+		4E49B1BC1AD05B3F00D175A7 /* EasyCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyCoreData.xcdatamodel; sourceTree = "<group>"; };
+		4E49B1C11AD05C1700D175A7 /* EasyCoreDataFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCoreDataFramework.h; sourceTree = "<group>"; };
+		4E49B1C21AD05C1700D175A7 /* EasyCoreDataFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCoreDataFramework.m; sourceTree = "<group>"; };
+		4E49B1C91AD05CCE00D175A7 /* CoreDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataEntity.h; path = ../CoreDataEntity.h; sourceTree = "<group>"; };
+		4E49B1CA1AD05CCE00D175A7 /* CoreDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataEntity.m; path = ../CoreDataEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +84,13 @@
 		4E49B1A11AD05AE900D175A7 /* EasyCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				4E49B1C91AD05CCE00D175A7 /* CoreDataEntity.h */,
+				4E49B1CA1AD05CCE00D175A7 /* CoreDataEntity.m */,
+				4E49B1C11AD05C1700D175A7 /* EasyCoreDataFramework.h */,
+				4E49B1C21AD05C1700D175A7 /* EasyCoreDataFramework.m */,
 				4E49B1A41AD05AE900D175A7 /* EasyCoreData.h */,
 				4E49B1A21AD05AE900D175A7 /* Supporting Files */,
+				4E49B1BB1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld */,
 			);
 			path = EasyCoreData;
 			sourceTree = "<group>";
@@ -110,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E49B1A51AD05AE900D175A7 /* EasyCoreData.h in Headers */,
+				4E49B1CB1AD05CCE00D175A7 /* CoreDataEntity.h in Headers */,
+				4E49B1C61AD05C1700D175A7 /* EasyCoreDataFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E49B1BD1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld in Sources */,
+				4E49B1C71AD05C1700D175A7 /* EasyCoreDataFramework.m in Sources */,
+				4E49B1CC1AD05CCE00D175A7 /* CoreDataEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E49B1B21AD05AEA00D175A7 /* EasyCoreDataTests.m in Sources */,
+				4E49B1C81AD05C1700D175A7 /* EasyCoreDataFramework.m in Sources */,
+				4E49B1BE1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld in Sources */,
+				4E49B1CD1AD05CCE00D175A7 /* CoreDataEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +430,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E49B1BB1AD05B3F00D175A7 /* EasyCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E49B1BC1AD05B3F00D175A7 /* EasyCoreData.xcdatamodel */,
+			);
+			currentVersion = 4E49B1BC1AD05B3F00D175A7 /* EasyCoreData.xcdatamodel */;
+			path = EasyCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4E49B1961AD05AE900D175A7 /* Project object */;
 }
