@@ -8,9 +8,9 @@ ObjC CoreData verbose is too much to bear. There must have been a better way.
 # Installation
 
  
-run git clone git://github.com/vladorby/EasyCoreData.git
+& run git clone git://github.com/vladorby/EasyCoreData.git
  
-Usage
+# Usage
 
  
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
@@ -25,7 +25,7 @@ Call framework methods on instances subclassed with EasyCoreData
 See the test for typical use scenarios
 
 
-License
+# License
 
 See the LICENSE.
 
