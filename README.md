@@ -7,8 +7,9 @@ ObjC CoreData verbose is too much to bear. There must have been a better way.
 
 # Installation
 
- 
-& run git clone git://github.com/vladorby/EasyCoreData.git
+ ```
+> run git clone git://github.com/vladorby/EasyCoreData.git
+```
  
 # Usage
 
